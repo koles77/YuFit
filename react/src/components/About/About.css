@@ -35,3 +35,21 @@
 .about_container .about_text p span {
     color: #18A0FB;
 }
+
+@media (max-width: 1520px) {
+    .about_container .img_container {
+        max-height: 70vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .about_container .img_container {
+        max-height: 60vh;
+    }   
+}
+
+@media (max-width: 500px) {
+    .about_container .img_container {
+        height: 40vh;
+    }
+}

@@ -1,14 +1,14 @@
 import React from "react";
 import './App.css';
 import './index.css';
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Benefits from "./components/Benefits/Benefits";
-import About from "./components/About/About";
-import Activity from "./components/Activitty/Activity";
-import Video from "./components/Video/Video";
-import Results from "./components/Results/Results";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header.jsx";
+import Main from "./components/Main/Main.jsx";
+import Benefits from "./components/Benefits/Benefits.jsx";
+import About from "./components/About/About.jsx";
+import Activity from "./components/Activitty/Activity.jsx";
+import Video from "./components/Video/Video.jsx";
+import Results from "./components/Results/Results.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const App = () => {
     return (

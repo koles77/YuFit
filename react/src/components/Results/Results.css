@@ -17,14 +17,26 @@
     color: #fff;
   }
 
-@media (max-width: 500px) {
+  @media (max-width: 1024px) {
+    .results {
+      margin-bottom: 14rem;
+    }
+  }
+
+  @media (max-width: 845px) {
+    .results h3 {
+        font-size: 5rem;
+    }
+  }
+
+  @media (max-width: 500px) {
   .results h3 {
-      font-size: 4.5rem;
+      font-size: 4rem;
   }
 }
 
 @media (max-width: 350px) {
   .results h3 {
-      font-size: 4rem;
+      font-size: 3rem;
   }
 }

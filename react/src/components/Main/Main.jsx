@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './Main.css';
-import Modal from './Modal/Modal';
-import PostForm from './PostForm/PostForm';
+import Modal from './Modal/Modal.jsx';
+import PostForm from './PostForm/PostForm.jsx';
 
 const Main = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -19,7 +19,6 @@ const Main = () => {
               <button className='btn btn_blue' onClick={() => setModalActive(true)}>записаться</button>
               <a href='/' className='btn btn_dark'>подробнее</a>
             </div>
-            <div className='box_content_bottom'></div> 
           </div>
           <Modal active={modalActive} setActive={setModalActive}>
             <PostForm />

@@ -1,5 +1,7 @@
 .benefits {
-    background-image: url("../../assets/images/benefits_bg.jpg");
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), 
+        url("../../assets/images/benefits_bg.png");
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat;
@@ -42,12 +44,25 @@
 @media (max-width: 1520px) {
     .benefits_container img {
         width: 60%;
-    }      
+    }
+    .benefits_container h3 {
+        font-size: 6rem;
+    }       
+}
+
+@media (max-width: 845px) {
+    .benefits_container h3 {
+        font-size: 5rem;
+    }
+
+    .benefits_container img {
+        width: 60%;
+    } 
 }
 
 @media (max-width: 500px) {
     .benefits_container h3 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .benefits_container img {
@@ -57,6 +72,6 @@
 
 @media (max-width: 350px) {
     .benefits_container h3 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     } 
 }

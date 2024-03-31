@@ -31,3 +31,9 @@
 .modal_content.active {
     transform: scale(1);
 }
+
+@media (max-width: 500px) {
+    .modal_content {
+        width: 70vw;
+    }
+}
