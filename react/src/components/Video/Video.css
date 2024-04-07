@@ -1,5 +1,5 @@
 .video {
-    display: -webkit-box;
+  display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
@@ -7,9 +7,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 1920px;
-    height: 90vh;
+    height: 95vh;
     padding: 0 4rem;
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
     background-image: url("../../assets/images/video_bg.png");
     background-position: center;
     background-size: cover;
@@ -39,20 +39,21 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .video {
     max-height: 60vh;
+    margin-bottom: 20%;
   }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .video {
       height: 50vh;
-      margin-bottom: 20%;
+      margin-bottom: 33%;
     }
   }
 
-@media (max-width: 845px) {
+@media screen and (max-width: 900px) {
     .video .swiper_video .swiper_video_container .slide {
       margin-left: 7rem;
       max-width: 41%;
@@ -60,7 +61,7 @@
 
     .video {
       max-height: 55vh;
-      margin-bottom: 18%;
+      margin-bottom: 33%;
     }
 
     .video h3 {
@@ -68,18 +69,25 @@
     }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 845px) {
+  .video {
+    margin-bottom: 33%;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .video {
     height: 30vh;
+    margin-bottom: 50%;
   }
   .video h3 {
     font-size: 4rem;
   }
 }
 
-@media (max-width: 350px) {
+@media screen and (max-width: 350px) {
   .video {
-    height: 35vh;
+    height: 50vh;
   }
   
   .video h3 {

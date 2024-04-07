@@ -6,6 +6,8 @@ import '../Slider/slick.css';
 
 const img_1 = new URL ('../../assets/images/results_1.png', import.meta.url);
 const img_2 = new URL ('../../assets/images/results_2.png', import.meta.url);
+const img_3 = new URL ('../../assets/images/results_3.png', import.meta.url);
+const img_4 = new URL ('../../assets/images/results_4.png', import.meta.url);
 
 
 function Results() {
@@ -39,10 +41,10 @@ function Results() {
                     <img src={img_2} alt="/"></img>
                 </div>
                 <div>
-                    <img src={img_2} alt="/"></img>
+                    <img src={img_3} alt="/"></img>
                 </div>
                 <div>
-                    <img src={img_1} alt="/"></img>
+                    <img src={img_4} alt="/"></img>
                 </div>  
             </Slider>
         </div>
